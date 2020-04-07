@@ -1,0 +1,120 @@
+.main {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 720px;
+    width: 100%;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 97%;
+    height: 20vh;
+    padding: 10px;
+}
+
+#keyboard {
+    display: block;
+    margin: 2% 0;
+    padding: 3px;
+    background-color: darkgray;
+    border: 0.4vh solid black;
+    box-shadow: 0 0 5px 2px;
+    border-radius: 6px;
+    font-size: 1.8em;
+}
+
+.row {
+    display: flex;
+}
+
+.key {
+    display: block;
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: dimgray;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(218, 205, 182);
+    line-height: 40px;
+    box-shadow:
+    0px 0px 3px 1px #0a0a0ae8,
+    0 1px 0 rgba(0, 0, 0, 0) inset;
+    transition: all 0.1s linear;
+}
+
+.key:hover {
+    background-color: lightseagreen;
+}
+
+.key.down {
+    background-color: rgb(255, 99, 71);
+    transform: scale(0.95);
+    box-shadow: 
+    0px 0px 1px 1px #0a0a0ae8,
+    1px 1px 1px 1px rgba(10, 10, 10, 0.452) inset;
+}
+
+.backspace {
+    width: 104px;
+    background-color: rgb(63, 65, 65);
+}
+
+.tab,
+.ctrl-left,
+.ctrl-right {
+    width: 53px;
+    background-color: rgb(63, 65, 65);
+}
+
+.del {
+    width: 45px;
+    background-color: rgb(63, 65, 65);
+}
+
+.caps-lock {
+    width: 85px;
+    background-color: rgb(63, 65, 65);
+}
+
+.enter {
+    width: 105px;
+    background-color: rgb(63, 65, 65);
+}
+
+.shift-left,
+.shift-right {
+    width: 95px;
+    background-color: rgb(63, 65, 65);
+}
+
+.arrow-up,
+.arrow-left,
+.arrow-right,
+.arrow-down {
+    background-color: rgb(63, 65, 65);
+}
+
+.win,
+.alt-left,
+.alt-right {
+    width: 48px;
+    background-color: rgb(63, 65, 65);
+}
+
+.space {
+    width: 284px;
+    background-color: rgb(63, 65, 65);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.readme {
+    font-size: 1.2rem;
+    color: coral;
+}
